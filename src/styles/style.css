@@ -1,0 +1,99 @@
+.nav-bar{
+display: flex;
+flex-direction: row;
+align-items:center;
+justify-content:space-between;
+height: 50%;
+box-shadow: 1px 1px;
+color:grey;
+width:100%;
+padding-bottom:5px;
+}
+#logo{
+width:23%;
+margin:0 12px;
+}
+h1{
+    color: rgb(203, 167, 155);
+    font-size: xx-large;
+    padding:2px;
+    
+}
+.container{
+    display:flex;
+    flex-direction:row;
+    width:50%;
+    align-items: center;
+    background-color: rgba(221, 213, 221, 0.596);
+    border-radius:13px;
+    margin:10px;
+    margin-left:250px;
+    padding-top: 2px;
+}
+h4{
+    margin:0 14px;
+}
+.nav-right{
+    display:flex;
+}
+.nav-left{
+    display:flex;
+    flex-direction:row;
+   
+}
+#profile-pic{
+    width:100px;
+    padding:2px;
+    border-radius: 50px;
+    margin:2px 2px;
+}
+.content{
+display:flex;
+flex-direction:column;
+align-items:center;
+width:150%;
+padding:25px;
+font-family: 'Courier New', Courier, monospace;
+
+}
+.top-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    background-color: rgba(245, 245, 220, 0.503);
+    margin-bottom: 2px;
+    border-radius: 10px;
+    padding:10px
+}
+.bottom-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    width: 95%; 
+    margin-top: 2px;
+    border-radius: 10px;
+}
+h5,h6,p{
+    text-align: justify;
+}
+body{
+    background-color: rgb(203, 203, 198);
+    background-image: url("https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHNvY2lhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom:700px;
+  
+    
+}
+#chat-number{
+    background-color: rgba(141, 180, 198, 0.798);
+    border-radius:50px;
+    font-size:12px;
+    padding:4px;
+    color:white;
+
+
+}
